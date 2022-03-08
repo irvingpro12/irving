@@ -14,7 +14,7 @@ public class Ascii202160249 {
     }
     public void enterData(){
       Scanner entradaOpt =new Scanner(System.in);
-      int enterOptmatricula,initialmatricula, finishmatricula;
+      
         System.out.println("digite (1) o (2)");
         enterOptmatricula = entradaOpt.nextInt();
         
@@ -31,7 +31,7 @@ public class Ascii202160249 {
     public void displayCharacter(){
         int i;
         for (i=initialmatricula ; i<=finishmatricula ; i++){
-            System.out.println("el codigo ASCII de "+i+" es "+(char)+i);
+            System.out.println("el codigo ASCII de "+i+" es "+(char)i);
         }
     }
     
